@@ -42,7 +42,7 @@ def intro():
 
 def validate(name, filetype):
     """
-    Manually adds file extension if file name provided by user does not already include it.
+    Manually adds file extension if file name provided by user does not already include extension.
     :param name: file name provided by user
     :param filetype: expected file extension
     :return: returns name + file extension (either .pdf or .csv, as indicated by filetype)
