@@ -1,4 +1,8 @@
 def usr_options():
+    """
+    Prints options to user.
+    :return: n/a
+    """
     print(
         '''
     What would you like to do?
@@ -10,6 +14,10 @@ def usr_options():
 
 
 def intro():
+    """
+    Prints program intro to user.
+    :return: n/a
+    """
     print(
         '''
         __________________   __________________
@@ -33,6 +41,12 @@ def intro():
 
 
 def validate(name, filetype):
+    """
+    Manually adds file extension if file name provided by user does not already include it.
+    :param name: file name provided by user
+    :param filetype: expected file extension
+    :return: returns name + file extension (either .pdf or .csv, as indicated by filetype)
+    """
     if filetype == "pdf":
         if name[-4:] != ".pdf":  # format if necessary
             name += ".pdf"
