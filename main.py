@@ -1,10 +1,11 @@
-from helpers import intro, usr_options, tutorial, quit_pg
+from helpers import *
 from count import count_mode
 from search import search_mode
 
 
 while 1:
     intro()
+    welcome()
     usr_options()
     selection = "Select a mode by inputting a number: "
     choice = input(selection)
@@ -20,6 +21,6 @@ while 1:
         print("Please enter a valid response")
         continue
 
-    print(f"\nWould you like to exit PDF Parser? [ Yes / No ]")
+    print(f"\nWould you like to exit inkCT? [ Yes / No ]")
     if input().lower() == 'yes':
         quit_pg()
