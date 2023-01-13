@@ -58,4 +58,16 @@ def validate(name, filetype):
 
 
 def tutorial():
-    pass
+    print(
+    """
+    <<<< ENTERED TUTORIAL MODE >>>>
+
+    """
+    )
+
+
+def quit_pg():
+    print('''
+    <<<< EXITING PDF PARSER >>>>
+    ''')
+    exit()

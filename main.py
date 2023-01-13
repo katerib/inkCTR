@@ -1,4 +1,4 @@
-from helpers import intro, usr_options, tutorial
+from helpers import intro, usr_options, tutorial, quit_pg
 from count import count_mode
 from search import search_mode
 
@@ -15,14 +15,11 @@ while 1:
     elif choice == '3':
         tutorial()
     elif choice == '4':
-        exit()
+        quit_pg()
     else:
         print("Please enter a valid response")
         continue
 
-    print(f"\nWould you like to exit PDF Parser? (yes/no)")
+    print(f"\nWould you like to exit PDF Parser? [ Yes / No ]")
     if input().lower() == 'yes':
-        print('''
-        <<<< EXITING PDF PARSER >>>>\n
-        ''')
-        exit()
+        quit_pg()
