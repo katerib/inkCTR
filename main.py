@@ -22,5 +22,7 @@ while 1:
 
     print(f"\nWould you like to exit PDF Parser? (yes/no)")
     if input().lower() == 'yes':
-        print("<<<< EXITING PDF PARSER >>>>")
+        print('''
+        <<<< EXITING PDF PARSER >>>>\n
+        ''')
         exit()
