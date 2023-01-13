@@ -20,7 +20,7 @@ while 1:
         print("Please enter a valid response")
         continue
 
-    print(f"\nWould you like to exit PDFParser? (yes/no)")
+    print(f"\nWould you like to exit PDF Parser? (yes/no)")
     if input().lower() == 'yes':
-        print("<<<< EXITING PDFPARSER >>>>")
+        print("<<<< EXITING PDF PARSER >>>>")
         exit()
