@@ -44,7 +44,7 @@ def search_mode():
         return
     while 1:                                                            # perform search -> find_word()
         find_word(csv_name)
-        print(f"\nSearch for another word in this file? (yes/no)")
+        print(f"\nSearch for another word in this file?  [ Yes / No ]")
         if input().lower() == 'no':
             print("<<<< EXITED WORD SEARCH MODE >>>>")
             return                                                      # return to main
