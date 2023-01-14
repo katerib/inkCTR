@@ -21,11 +21,12 @@ def intro():
     :return: n/a
     """
     print('''
-      _       _     ____ _____ 
-     (_)_ __ | | __/ ___|_   _|
-     | | '_ \| |/ / |     | |  
-     | | | | |   <| |___  | |  
-     |_|_| |_|_|\_\x5c\x5c____| |_|  
+  _       _     ____ _____ ____  
+ (_)_ __ | | __/ ___|_   _|  _ \ 
+ | | '_ \| |/ / |     | | | |_) |
+ | | | | |   <| |___  | | |  _ < 
+ |_|_| |_|_|\_\x5c\x5c____| |_| |_| \_\x5c
+                                
     ''')
 
 
@@ -47,28 +48,29 @@ def validate(name, filetype):
 
 
 def welcome():
-    print("Welcome to inkCT, a tool to help authors identify overused words in their work.")
+    print("Welcome to inkCTR, a tool to help authors identify overused words in their work.")
 
 
 def tutorial():
     print("<< ENTERED TUTORIAL MODE >>")
     print('''
-inkCT is a program designed for authors to analyze their writing. To get started, 
-provide a PDF version of the document you want to scan and inkCT will do the rest! 
+inkCTR is a program designed for authors to analyze their writing. To get started, 
+provide a PDF version of the document you want to scan and inkCTR will do the rest! 
 
--- How to Use inkCT --
+-- How to Use inkCTR --
   [Mode 1] Word Count Mode
       From the main menu, type '1' to enter Word Count Mode. When prompted, type 
     the name of your PDF file.*
-      Now inkCT will start counting the number of times each word is found in your 
-    document. inkCT will only count words that are four letters or longer. Words
+      Now inkCTR will start counting the number of times each word is found in your 
+    document. inkCTR will only count words that are four letters or longer. Words
     specified in the "Ignored" section of code will also not be counted.
         If you would like to change the ignored words, open the [count.py] file 
         and modify the list of words at the top of the page. You can ignore as 
-        many or as few words as you'd like. 
+        many or as few words as you'd like. When adding new words, every letter
+        of the word should be lowercase (eg. "I'll" should be added as "i'll")
       After scanning, your results will be saved as a .csv file in the folder 
-    containing inkCT's program files. You can open this file with any spreadsheet
-    software (eg. Excel) or use it with inkCT's Search Mode.
+    containing inkCTR's program files. You can open this file with any spreadsheet
+    software (eg. Excel) or use it with inkCTR's Search Mode.
     
   [Mode 2] Search Mode
       Now that you've found your results, you can use the .csv file to find the 
@@ -80,9 +82,9 @@ provide a PDF version of the document you want to scan and inkCT will do the res
     in the PDF you provided.
     
 * Notes about files:
-    - Don't worry about including file extensions. If you leave them out, inkCT 
+    - Don't worry about including file extensions. If you leave them out, inkCTR 
       will manually add them to the file name for you.
-    - Your file should be in the same folder that contains the inkCT program 
+    - Your file should be in the same folder that contains the inkCTR program 
       files. If your file is saved at another location, please provide the
       explicit path to your file instead of the file name.
           
@@ -94,5 +96,5 @@ provide a PDF version of the document you want to scan and inkCT will do the res
 
 
 def quit_pg():
-    print("\n  Thanks for using inkCT! \n")
+    print("\n  Thanks for using inkCTR! \n")
     exit()

@@ -21,6 +21,6 @@ while 1:
         print("Please enter a valid response")
         continue
 
-    print(f"\nWould you like to exit inkCT? [ Yes / No ]")
+    print(f"\nWould you like to exit inkCTR? [ Yes / No ]")
     if input().lower() == 'yes':
         quit_pg()

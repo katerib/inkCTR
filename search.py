@@ -20,7 +20,7 @@ def find_word(csv_name):
             if row[1] == 'FREQUENCY':
                 continue
             if row[0] == needle:
-                print(f"the word '{needle}' appears {row[1]} times in '{csv_name}'.")   # print frequency
+                print(f"The word '{needle}' appears {row[1]} times in '{csv_name}'.")   # print frequency
                 found = True
     if not found:
         print(f"The word '{needle}' was not found in '{csv_name}'.")
@@ -33,7 +33,7 @@ def search_mode():
     :return: n/a
     """
     print("\n<<<< ENTERED WORD SEARCH MODE >>>>")
-    search_prompt = "Input the name of the .csv file to search in: "    # get CSV file name from user
+    search_prompt = "Input the name of the .csv file to search: "    # get CSV file name from user
     input_name = input(search_prompt)
     # validate input
     csv_name = validate(input_name, "csv")
