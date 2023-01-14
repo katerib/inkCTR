@@ -18,9 +18,13 @@ while 1:
     elif choice == '4':
         quit_pg()
     else:
-        print("Please enter a valid response")
+        print("ERROR: Please enter a valid response.")
         continue
 
-    print(f"\nWould you like to exit inkCTR? [ Yes / No ]")
-    if input().lower() == 'yes':
+    input_prompt = "\nWould you like to exit inkCTR? [ Yes / No ]"
+    resp = input(input_prompt).lower()
+    if resp == 'yes':
+        quit_pg()
+    elif resp != 'no':
+        print("\nERROR: Please enter a valid response.")
         quit_pg()
