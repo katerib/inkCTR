@@ -1,3 +1,7 @@
+<div id="header" align="center"> 
+  <img height="200px" src="https://media.giphy.com/media/VfK8uwEgsWawGtsSKO/giphy.gif"/> 
+</div>
+
 # inkCTR
 
 A tool for authors to analyze their writing and word choice.
