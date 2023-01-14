@@ -5,8 +5,7 @@ def usr_options():
     Prints options to user.
     :return: n/a
     """
-    print(
-    '''
+    print('''
 Where would you like to start?
   [1] Get Started: scan a PDF
   [2] View Results: search for a word
@@ -32,7 +31,7 @@ def intro():
 
 def validate(name, filetype):
     """
-    Manually adds file extension if file name provided by user does not already include extension.
+    Manually add file extension if file name provided by user does not already include extension.
     :param name: file name provided by user
     :param filetype: expected file extension
     :return: returns name + file extension (either .pdf or .csv, as indicated by filetype)
