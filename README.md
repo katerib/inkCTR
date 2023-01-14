@@ -79,3 +79,11 @@ The file can be opened with any spreadsheet software, like Microsoft Excel, to v
 ![Results](/screenshots/results.jpg)
 
 > Note: On some operating systems, you may encounter special characters when viewing the .csv file using Microsoft Excel. To remedy this, [try this solution](https://support.knowbe4.com/hc/en-us/articles/360041788374-Why-Aren-t-Special-Characters-Displaying-in-My-CSV-File-in-Microsoft-Excel-). In these cases, inkCTR will still run as expected.
+
+## Improvements & Ideas
+
+Some ideas for future updates to improve inkCTR:
+
+* import ignored words from .txt file (or .csv) to make it easier for users to customize ignored words 
+* create GUI interface ?
+* add more features
