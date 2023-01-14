@@ -70,6 +70,8 @@ The results contained 32,652 unique words and the number of times each word was 
 
 ![Search Mode](/screenshots/search_mode.jpg)
 
-The file can be opened with any spreadsheet software, like Microsoft Excel, to view all results. As shown below, the author can determine their most used word ("said"). If the user would like to exclude any of these words from future analysis during Word Count Mode, the user can modify the contents of the 'Ignored' list declared at the top of the the `count.py` file.
+The file can be opened with any spreadsheet software, like Microsoft Excel, to view all results. As shown below, the author can determine their most used word ("said"). If the user would like to exclude any of these words from future analysis during Word Count Mode, the user can modify the contents of the 'Ignored' list declared at the top of the `count.py` file.
 
 ![Results](/screenshots/results.jpg)
+
+> Note: On some operating systems, you may encounter special characters when viewing the .csv file using Microsoft Excel. To remedy this, [try this solution](https://support.knowbe4.com/hc/en-us/articles/360041788374-Why-Aren-t-Special-Characters-Displaying-in-My-CSV-File-in-Microsoft-Excel-). In these cases, inkCTR will still run as expected.
