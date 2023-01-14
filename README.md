@@ -4,7 +4,7 @@ A tool for authors to analyze their writing and word choice.
 
 ## Description
 
-inkCTR was designed to help authors identify the most overused words in their writing. After running the program, an author will be able to view their most used words. Authors can also choose to ignore certain words when scanning the PDF (eg. exclude the word "Chapter" from the results). Once the PDF has been analyzed, the author can search the results to see the word count of a specific word. 
+inkCTR, or inkCounter, was designed to help authors identify the most overused words in their writing. After running the program, an author will be able to view their most used words. Authors can also choose to ignore certain words when scanning the PDF (eg. exclude the word "Chapter" from the results). Once the PDF has been analyzed, the author can search the results to see the word count of a specific word. 
 
 The program analyzes a PDF indicated by the user, counts the number of times each word appears, and then writes the results to a new file. A list of unique words and their frequencies are exported to a .csv file for the user to view with any spreadsheet software.
 
